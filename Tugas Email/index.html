@@ -1,7 +1,18 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+.footer {
+   position: fixed;
+   left: 0;
+   bottom: 0;
+   width: 100%;
+   background-color: red;
+   color: white;
+   text-align: center;
+}
+</style>
     <link
       href="https://fonts.googleapis.com/css?family=Lato:100,300,400,700,900"
       rel="stylesheet"
@@ -18,6 +29,8 @@
   </head>
 
   <body>
+
+    
     <div id="page-wraper">
       <div class="responsive-nav">
         <i class="fa fa-bars" id="menu-toggle"></i>
@@ -36,46 +49,59 @@
                 <li><a href="#section1">Inbox</a></li>
                 <li><a href="#section2">Sent</a></li>
                 <li><a href="#section4">Profile</a></li>
-                <li><a href="#section4">Contact me</a></li>
+                <li><a href="#section5">Send Message</a></li>
+                <li><a href="#section6">Setting</a></li>
               </ul>
             </nav>
             <p></p>
+            
           </div>
+          
         </div>
+        
       </div>
 
-      <section class="section about-me" data-section="section1">
+      <section class="section Inbox" data-section="section1">
         <div class="container">
           <div class="section-heading">
             <h2>Inbox</h2>
             <div class="line-dec"></div>
-            <div class="btn-group">
+            <div class="btn-group-Inbox">
               <button style="width:100%"> Dischord    :    Password Reset Request for Dischord</button>
-            
+              <div class="btn-group-Inbox1">
+                <button style="width:100%"> Grab     :    Your Grab E-Receipt</button>
+               <div class="btn-group-Inbox2">
+                  <button style="width:100%"> Canva     :    Indonesia - Top 10 Certificate Template</button>
+               <div class="btn-group-Inbox3">
+                    <button style="width:100%"> Instagram     :    New login to Instagram from Chrome on Windows</button>
             </div>
-
             
-      
-      <br>
-      <section class="section my-services" data-section="section2">
+    
         <div class="container">
           <div class="section-heading">
             <h2>Sent</h2>
             <div class="line-dec"></div>
+            <div class="btn-group-Sent"> 
+              <button style="width:100%"> Jasmine  :  File sent</button>
+              <div class="btn-group-Sent1">
+                <button style="width:100%"> Jasmine  :  I have received the file from you </button>
+                <div class="btn-group-Sent2">
+                  <button style="width:100%"> Shelly   :   Thank you for the gift</button>
             
-
-      <section class="section my-work" data-section="section3">
         <div class="container">
           <div class="section-heading">
             <h2>Profile</h2>
             <div class="line-dec"></div>
             
-
-      <section class="section contact-me" data-section="section4">
         <div class="container">
           <div class="section-heading">
-            <h2>Contact Me</h2>
+            <h2>Send Message</h2>
             <div class="line-dec"></div>
+
+           
+  
+
+            
            
           </div>
           <div class="row">
@@ -133,17 +159,26 @@
                     </div>
                     <div class="col-md-12">
                       <fieldset>
-                        <button type="submit" id="form-submit" class="button">
+                        <button type="submit"  class="button">
                           Send Message
                         </button>
                       </fieldset>
-                    </div>
-                  </div>
-                </form>
+
+
+         <div class="container">
+            <div class="section-heading">
+            <h2>Setting</h2>
+            <div class="line-dec"></div>
+
+            <div class="btn-group-Setting">
+            <button style="width:100%" button" onclick="alert('You are logged out!')">Log Out</button>
+
+            
               </div>
             </div>
           </div>
         </div>
+        Persyaratan · Privasi · Kebijakan Program
       </section>
     </div>
 
@@ -153,4 +188,5 @@
 
 
   </body>
+  
 </html>
